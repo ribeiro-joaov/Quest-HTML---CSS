@@ -1,8 +1,8 @@
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   body {
     background: url(/src/images/bg-mobile.svg) no-repeat top/contain;
     background-color: var(--violet);
-    
+    max-width: 600px;
   }
   .main-container {
     display: flex;
@@ -33,37 +33,31 @@
     margin-right: 0;
   }
 }
-@media (max-width: 400px) {
-    body {
-      background: url(/src/images/bg-mobile.svg) no-repeat top/cover;
-      background-color: var(--violet);
-      max-width: var(--mobile);
-    }
-    .main-container {
-      height: auto;
-    }
-    .main-container .about {
-      align-items: center;
-      text-align: center;
-    }
-    .main-container .about h1 {
-      font-size: 2rem;
-    }
-    .main-container .about p {
-      font-size: 1.2rem;
-    }
-    .main-container .about .btn-register {
-      text-align: center;
-      padding: 15px 40px;
-      font-size: 1.2rem;
-    }
-    .footer {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-    }
-    .footer .social {
-      margin-right: 0;
-    }
+@media (max-width: 500px) {
+  .footer .social a {
+    font-size: 1rem;
+    width: 25px;
+    height: 25px;
   }
+}
+
+@media (max-width: 420px) {
+  .main-container .mockup {
+    width: 90%;
+  }
+  .main-container .about h1 {
+    font-size: 2rem;
+  }
+  .main-container .about p {
+    font-size: 1.2rem;
+  }
+  .main-container .about .btn-register {
+    text-align: center;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+  }
+  .footer .social {
+    margin-top: 5px;
+    margin-right: 0;
+  }
+}

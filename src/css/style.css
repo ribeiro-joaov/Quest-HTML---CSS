@@ -7,7 +7,9 @@ html {
 body {
   background: url(../images/bg-desktop.svg) no-repeat center center/cover;
   background-color: var(--violet);
-  height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 100vh;
   
 }
 .header .logo img {
@@ -22,7 +24,6 @@ body {
   max-width: var(--width-desktop);
   margin: 0 auto;
   padding: 0 20px;
-  height: 70vh;
   
 }
 .main-container .mockup {
